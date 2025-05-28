@@ -7,6 +7,7 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
+
 import ProductPrice from "./product-price";
 
 const ProductCard = ({ product }: { product: any }) => {
