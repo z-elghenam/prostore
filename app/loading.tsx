@@ -3,15 +3,7 @@ import loader from "@/assets/loader.gif";
 
 const Loading = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
+    <div className="flex h-[100vh] w-[100vw] items-center justify-center">
       <Image src={loader} width={150} height={150} alt="Loading..." />
     </div>
   );
