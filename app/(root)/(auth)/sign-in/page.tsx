@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import CredentialsSignInForm from "./credentials-signin-form";
+import SignInForm from "./signin-form";
 
 import {
   Card,
@@ -39,7 +39,7 @@ const SignInPage = async () => {
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <CredentialsSignInForm />
+          <SignInForm />
         </CardContent>
       </Card>
     </div>
